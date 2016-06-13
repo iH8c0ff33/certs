@@ -12,3 +12,4 @@ docker start -a certs
 docker kill certs
 docker rm certs
 docker start proxy
+echo works
