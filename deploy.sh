@@ -9,7 +9,5 @@ docker create \
   certs_image
 docker stop proxy
 docker start -a certs
-docker kill certs
 docker rm certs
 docker start proxy
-echo works
