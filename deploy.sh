@@ -1,5 +1,5 @@
 #!/bin/sh
-docker build -t certs_image /var/certi
+docker build -t certs_image .
 docker create \
   -i -t \
   -p 80:80 \
