@@ -6,6 +6,5 @@ certbot certonly \
   --standalone \
   -d daniele.ml \
   -d mail.daniele.ml \
-  -d app.daniele.ml \
-  -d git.daniele.ml
+  -d app.daniele.ml
 cp /etc/letsencrypt/live/daniele.ml/* /var/certs
