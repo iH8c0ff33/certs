@@ -1,3 +1,4 @@
+#!/bin/sh
 certbot certonly \
   --renew-by-default \
   --email daniele.monteleone.it@gmail.com \
@@ -7,5 +8,6 @@ certbot certonly \
   -d daniele.ml \
   -d mail.daniele.ml \
   -d app.daniele.ml \
+  -d api.daniele.ml \
   -d git.daniele.ml
 cp /etc/letsencrypt/live/daniele.ml/* /var/certs
